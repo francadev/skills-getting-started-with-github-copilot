@@ -142,3 +142,36 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants styling for activity cards */
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants h5 {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+
+.participants-list li {
+  padding: 6px 8px;
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
